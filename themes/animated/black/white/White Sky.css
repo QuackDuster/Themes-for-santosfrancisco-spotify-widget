@@ -4,7 +4,7 @@
   animation: bar 5s ease-out infinite alternate both;
   background: rgba(25, 20, 20, 1);
   border-radius: 15px 15px 15px 15px;
-  border-bottom: 3px solid rgba(5, 32, 209, 0.88);
+  border-bottom: 3px solid rgba(197,219,240,.80);
 }
 .id__SpotifyWidget-sc-33c61j-2,
 .eUpjul {
@@ -21,7 +21,7 @@
   left: 72px;
 }
 .eUpjul .widget__artist-name {
-  color: rgba(197,219,239,1);
+  color: rgba(197,219,239);
   font-family: "Lexend", sans-serif;
   font-size: 12px;
   position: absolute;
@@ -49,7 +49,7 @@
 @keyframes bar {
   0%,
   100% {
-    border-bottom: 3px solid rgba(5, 32, 209, 0.88);
+    border-bottom: 3px solid rgba(197,219,240,.80);
   }
   50% {
     border-bottom: 3px solid rgba(25, 20, 20, 1);
@@ -66,7 +66,7 @@
 @keyframes cover-border {
   0%,
   100% {
-    border: 3px solid rgba(5, 32, 209, 0.88);
+    border: 3px solid rgba(197,219,240,.80);
   }
   50% {
     border: 3px solid rgba(255, 255, 255, 1);
