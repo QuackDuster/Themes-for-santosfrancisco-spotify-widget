@@ -1,10 +1,10 @@
-/* White Sky */
+/* Spotify Light Style */
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
 .id__SpotifyWidget-sc-33c61j-2 {
   animation: bar 5s ease-out infinite alternate both;
-  background: rgba(25, 20, 20, 1);
-  border-radius: 15px 15px 15px 15px;
-  border-bottom: 3px solid rgba(197,219,240,.80);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 15px 0px 0px 0px;
+  border-bottom: 3px solid rgb(78 136 190 / 74%);
 }
 .id__SpotifyWidget-sc-33c61j-2,
 .eUpjul {
@@ -21,7 +21,7 @@
   left: 72px;
 }
 .eUpjul .widget__artist-name {
-  color: rgba(197,219,239);
+  color: rgba(25, 20, 20, 1);
   font-family: "Lexend", sans-serif;
   font-size: 12px;
   position: absolute;
@@ -29,9 +29,10 @@
   text-transform: uppercase;
 }
 .eUpjul .widget__music-name {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(78 136 190 / 74%);
   font-family: "Lexend", sans-serif;
   font-size: 18px;
+    font-weight: bold;
   position: absolute;
   top: 16.2px;
 }
@@ -43,16 +44,16 @@
   left: 2px;
   width: 65px;
   height: 65px;
-  border: 3px solid rgba(255, 255, 255, 1);
+  border: 3px solid rgba(25, 20, 20, 1);
   border-radius: 50%;
 }
 @keyframes bar {
   0%,
   100% {
-    border-bottom: 3px solid rgba(197,219,240,.80);
+    border-bottom: 3px solid rgb(78 136 190 / 74%);
   }
   50% {
-    border-bottom: 3px solid rgba(25, 20, 20, 1);
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
   }
 }
 @keyframes cover-spin {
@@ -66,9 +67,9 @@
 @keyframes cover-border {
   0%,
   100% {
-    border: 3px solid rgba(197,219,240,.80);
+    border: 3px solid rgb(78 136 190 / 74%);
   }
   50% {
-    border: 3px solid rgba(255, 255, 255, 1);
+    border: 3px solid rgba(25, 20, 20, 1);
   }
 }
